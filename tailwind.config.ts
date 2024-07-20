@@ -8,22 +8,34 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
       keyframes: {
         typing: {
-          '0%, 100%': { backgroundColor: 'transparent' },
-          '50%': { backgroundColor: '#007FFF' },
+          "0%": {
+            width: "0%",
+            visibility: "hidden",
+          },
+          "100%": {
+            width: "100%",
+          },
+        },
+        blink: {
+          "50%": {
+            borderColor: "transparent",
+          },
+          "100%": {
+            borderColor: "#FF5E0E",
+          },
+        },
+        fadeIn: {
+          from: { opacity: "0%" },
+          to: { opacity: "100%" },
         },
       },
       animation: {
-        typing: "typing 1s steps(1) infinite",
+        typing: "typing 2s steps(20), blink .7s infinite",
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animated")],
 };
 export default config;
