@@ -42,7 +42,7 @@ This project is being developed with the following technologies:
 # Clone this repository
 $ git clone https://github.com/arthurbfonseca27/arthurfonseca.com.git
 # Go to repository
-$ cd arthurfonseca.com.git
+$ cd arthurfonseca.com
 # Install the dependencies
 $ npm install
 # Run the application in a development environment
