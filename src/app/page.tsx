@@ -7,7 +7,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex flex-col items-start justify-start text-[#848884]">
-        <div className="xl:max-w-5xl md:max-w-md sm:max-w-sm flex flex-col mx-6 my-6 xl:text-xl md:text-base sm:text-base gap-4 ">
+        <div className="xl:max-w-5xl md:max-w-sm flex flex-col mx-6 my-6 xl:text-xl md:text-base sm:text-base gap-4 ">
           <div className="gap-5 flex flex-col text-[#e5e4e2] font-medium">
             <div className="w-fit">
               <div className="flex w-max flex-row animate-typing overflow-hidden whitespace-nowrap border-r-[10px] border-r-[#FF5E0E]">
