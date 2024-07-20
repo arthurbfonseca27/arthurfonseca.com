@@ -43,19 +43,19 @@ export default function Home() {
                 </a>
               </li>
             </ul>
-            <p className="text-[#848884]">Hi, stranger 👋🏼</p>
+            <p className="text-[#848884]">Hi, stranger &nbsp;👋🏼</p>
             <p className="text-[#848884]">
-              I'm João Victor Fraga. I was born and raised in Brazil. Currently
+              I&apos;m João Victor Fraga. I was born and raised in Brazil. Currently
               I am graduating in Software Engineering at{" "}
-              <span className="text-[#e5e4e2]">FIAP</span> and I'm doing an
+              <span className="text-[#e5e4e2]">FIAP</span> and I&apos;m doing an
               Internship in Software Engineering at{" "}
               <span className="text-[#e5e4e2]">@PayPal</span> which is top tier
               payment service known worldwide.
             </p>
             <p className="text-[#848884]">
-              Nowdays my biggest passions are technology, financial markets and
+              Nowadays my biggest passions are technology, financial markets and
               geopolitics. I love getting to know new cultures, which is why I
-              became fluent in English and now I am learning French. I've
+              became fluent in English and now I am learning French. I&apos;ve
               visited 28 countries and worked in 7 of them, which made me
               develop a great ability to work with people from different
               cultures.
@@ -73,7 +73,7 @@ export default function Home() {
               <span className="text-[#848884]">interest.md</span>
             </div>
             <h3 className="text-[#e5e4e2] bg-[#007FFF] w-fit px-2">
-              Tech Skills & Interests
+              Tech Skills &amp; Interests
             </h3>
             <ul className="list-disc px-10">
               <li>Python, Javascript and Typescript. </li>
@@ -84,7 +84,7 @@ export default function Home() {
               </li>
             </ul>
             <h3 className="text-[#e5e4e2] bg-[#007FFF] w-fit px-2">
-              Personal Interests & Hobbies
+              Personal Interests &amp; Hobbies
             </h3>
             <ul className="list-disc px-10">
               <li>
