@@ -34,18 +34,18 @@ This project is being developed with the following technologies:
 -  Full Stack Framework: [Next.js](https://nextjs.org/);
 -  CSS Framework: [Tailwind CSS](https://tailwindcss.com/);
 -  Animations: [Tailwind Animated](https://www.tailwindcss-animated.com/);
--  Padronização: [Prettier](https://prettier.io/);
+-  Code patterns: [Prettier](https://prettier.io/);
 
 ## :information_source: How to use
 
 ```bash
-# Clonar este repositório
+# Clone this repository
 $ git clone https://github.com/arthurbfonseca27/arthurfonseca.com.git
-# Ir para o repositório
+# Go to repository
 $ cd arthurfonseca.com.git
-# Instalar as dependências
+# Install the dependencies
 $ npm install
-# Rodar a aplicação em ambiente de desenvolvimento
+# Run the application in a development environment
 $ npm run dev
 ```
 ## :scroll: Available scripts
