@@ -40,9 +40,9 @@ This project is being developed with the following technologies:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/arthurbfonseca27/arthurfonseca.com.git
+$ git clone https://github.com/arthurbfonseca27/personal-website.git
 # Go to repository
-$ cd arthurfonseca.com
+$ cd personal-website
 # Install the dependencies
 $ npm install
 # Run the application in a development environment
