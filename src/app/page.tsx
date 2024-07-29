@@ -11,7 +11,7 @@ export default function Home() {
           <div className="gap-5 flex flex-col text-[#e5e4e2] font-medium">
             <div className="w-fit">
               <div className="flex w-max flex-row animate-typing overflow-hidden whitespace-nowrap border-r-[10px] border-r-[#FF5E0E]">
-                <span className="">arthurbfonseca27@gmail.com</span>
+                <span className="">hello@arthurfonseca.com</span>
                 <span className="text-[#848884] pl-3">~ </span>
                 <span className="text-[#FF5E0E] pl-3">$ </span>
                 <span className="text-[#848884] pl-3 pr-2">me -h</span>
