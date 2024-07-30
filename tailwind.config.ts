@@ -11,7 +11,7 @@ const config: Config = {
       keyframes: {
         typing: {
           '0%': { width: '0ch' },
-          '100%': { width: '38ch' }
+          '100%': { width: '35ch' }
         },
         blink: {
           '50%': { borderColor: 'transparent' }

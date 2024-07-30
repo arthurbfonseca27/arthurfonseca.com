@@ -56,11 +56,11 @@ export default function Home() {
                       doing an Student Research in NLP at{" "}
                       <span className="text-[#e5e4e2] hover:text-[#FD7014]"><a href="https://www.lalic.ufscar.br/">LALIC</a></span>.
                     </p>
-                    <p className="text-[#848884]">
+                    {/* <p className="text-[#848884]">
                       Nowadays my biggest passions are technology, financial markets
                       and sports. I love getting to know new cultures, which is
                       why I became fluent in English.
-                    </p>
+                    </p> */}
                     <p className="text-[#848884]">
                       My main website is under construction. Meanwhile you can reach
                       me through the links above.
@@ -93,8 +93,7 @@ export default function Home() {
                   <li>
                     Apart from my enthusiasm for technology, I am an avid athlete,
                     enjoying brazillian jiu-jitsu, running and going to the gym. Also I am also deeply
-                    passionate about reading books on geopolitics, philosophy, and
-                    finance.
+                    passionate about reading books on philosophy, and finance.
                   </li>
                 </ul>
               </div>
