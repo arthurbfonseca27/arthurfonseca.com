@@ -10,29 +10,19 @@ const config: Config = {
     extend: {
       keyframes: {
         typing: {
-          "0%": {
-            width: "0%",
-            visibility: "hidden",
-          },
-          "100%": {
-            width: "100%",
-          },
+          '0%': { width: '0ch' },
+          '100%': { width: '38ch' }
         },
         blink: {
-          "50%": {
-            borderColor: "transparent",
-          },
-          "100%": {
-            borderColor: "#FF5E0E",
-          },
+          '50%': { borderColor: 'transparent' }
         },
-        fadeIn: {
-          from: { opacity: "0%" },
-          to: { opacity: "100%" },
+        cursor: {
+          '0%, 100%': { borderColor: 'transparent' },
+          '50%': { borderColor: '#FD7014' }
         },
       },
       animation: {
-        typing: "typing 2s steps(20), blink .7s infinite",
+        typing: 'typing 2s steps(25, end), blink .5s step-end infinite alternate',
       },
     },
   },
