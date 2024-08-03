@@ -69,7 +69,7 @@ export default function Home() {
                 </div>
               </div>
               <div>
-                <div className="flex flex-row gap-3">
+                <div className="flex flex-row gap-3 pt-4">
                   <span className="text-[#e5e4e2]">hello@arthurfonseca.com</span>
                   <span className="text-[#848884]">~ </span>
                   <span className="text-[#FD7014]">$ </span>
